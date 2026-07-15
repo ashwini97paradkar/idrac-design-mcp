@@ -1,0 +1,32 @@
+{
+  "name": "idrac-design-mcp",
+  "version": "0.1.0",
+  "description": "Local MCP server exposing iDRAC design-system knowledge over stdio.",
+  "type": "module",
+  "bin": {
+    "idrac-design-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "npm run build && node --test dist"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "idrac",
+    "design-system"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  }
+}
