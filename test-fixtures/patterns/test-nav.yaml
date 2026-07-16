@@ -1,0 +1,6 @@
+id: test-nav
+title: Navigation Pattern
+intent: Provides navigation for the main application
+a11y_refs:
+  - test-keyboard-nav
+notes: This is a test pattern with notes field
