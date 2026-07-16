@@ -1,0 +1,6 @@
+id: test-nav-example
+description: Example navigation usage
+snippet: |
+  <nav>
+    <a href="/">Home</a>
+  </nav>
